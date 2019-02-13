@@ -1,9 +1,15 @@
+### Recent coding interview exercise
+
 This repo is the result of a recent coding assignment I had on Gitlab where I was required to complete 3 assigned stories for a company's blog
 
 Here's an overview of work performed:
 
 Story 1 - Created rake task (nothing was specified for actual end-user actions), service object & custom seed file to import articles (and create authors) from .csv file. The task command is rails db:seed:articles (commented at top of db/custom_seeds/articles.rb).
+
+
 Story 2 - Added basic text string search of titles and body text leveraging the sidebar search field.
+
+
 Story 3 - Added relevancy sorting to search with an ActiveSupport::Concern. Titles carry heavier weight than body in ranking.
 
 Story summaries..
