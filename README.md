@@ -5,6 +5,8 @@ This repo is the result of a recent coding assignment I had on Gitlab where I wa
 Here's an overview of work performed:
 
 Story 1 - Created rake task (nothing was specified for actual end-user actions), service object & custom seed file to import articles (and create authors) from .csv file. The task command is rails db:seed:articles (commented at top of db/custom_seeds/articles.rb).
+  - Created Service Object to handle the data import and clean up fragments
+  - 
 
 
 Story 2 - Added basic text string search of titles and body text leveraging the sidebar search field.
@@ -47,9 +49,3 @@ word twice would have a relevancy score that is higher than an article
 which only contains the searched word once. Title of the article should
 have a heavier relevancy weight.
 ```
-
-## What to Expect after you Submit
-
-Our team will be notified and we'll review the submission within 3 days. We'll check for complexity, test coverage, and adherence to style. We're looking for clean, easy to read, maintainable code. Good test coverage, and performance considerations are a plus as well.
-
-We know your time is valuable and appreciate you taking the time to complete this assignment.
