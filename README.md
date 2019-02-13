@@ -1,4 +1,4 @@
-### Recent coding interview exercise
+### Recent coding interview exercise with tests
 
 This repo is the result of a recent coding assignment I had on Gitlab where I was required to complete 3 assigned stories for a company's blog
 
